@@ -1,0 +1,18 @@
+camel:
+  component:
+    servlet:
+      mapping:
+        context-path: /*
+
+server:
+  port: 7075
+
+rest-component: restlet
+
+root-uri: http://localhost:7075
+
+orders-api:
+  uri: /orders-api/orders
+
+items-api:
+  uri: ${root-uri}/items-api/items/{sku}

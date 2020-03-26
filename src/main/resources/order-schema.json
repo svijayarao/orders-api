@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "order-schema",
+  "type": "object",
+  "properties": {
+    "orderDesc": {
+      "id": "/properties/orderDesc",
+      "type": "string",
+      "title": "The Orderdesc Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "itemSku": {
+      "id": "/properties/itemSku",
+      "type": "string",
+      "title": "The Itemsku Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "numberOfUnits": {
+      "id": "/properties/numberOfUnits",
+      "type": "integer",
+      "title": "The Numberofunits Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    }
+  },
+  "required": [
+    "orderDesc",
+    "itemSku",
+    "numberOfUnits"
+  ]
+}
