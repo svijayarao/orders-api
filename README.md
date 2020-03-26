@@ -71,7 +71,7 @@ Once the application is started use Postman or any other REST client using the d
             "numberOfUnits": 2
         }
         
-#### Added a GET endpoint for testing from Postman and added a simple integration test OrderResourceITest
+#### Added a GET endpoint for testing from Postman and added a simple integration test for the same in OrderResourceITest
 - GET http://localhost:7075/orders-api/orders
 
        
